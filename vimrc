@@ -23,10 +23,10 @@ set virtualedit=block      " allow virtual edit in visual block ..
 " ----------------------------------------------------------------------------
 
 " lead with ,
-let mapleader = "6"
-inoremap <leader>6 6
-inoremap 5 =
-inoremap = 5
+" let mapleader = "6"
+" inoremap <leader>6 6
+" inoremap 5 =
+" inoremap = 5
 
 " reflow paragraph with Q in normal and visual mode
 nnoremap Q gqap
