@@ -37,6 +37,11 @@ let g:vim_json_syntax_conceal = 0
 
 Plugin 'scrooloose/nerdcommenter'
 
+Plugin 'terryma/vim-smooth-scroll'
+noremap <silent> <c-k> :call smooth_scroll#up(&scroll, 10, 1)<CR>
+noremap <silent> <c-j> :call smooth_scroll#down(&scroll, 10, 1)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 20, 2)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 20, 2)<CR>
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
