@@ -66,6 +66,9 @@ syntax enable
 " ## No line wrap ##
 set nowrap
 
+" ## 81st column highlighted ##
+set colorcolumn=80
+
 " ## Colors ##
 set background=dark
 colorscheme solarized
