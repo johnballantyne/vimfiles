@@ -67,7 +67,7 @@ syntax enable
 set nowrap
 
 " ## 81st column highlighted ##
-set colorcolumn=80
+set colorcolumn=81
 
 " ## Colors ##
 set background=dark
